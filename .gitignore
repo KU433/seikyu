@@ -1,0 +1,101 @@
+# ========================
+# ✅ Node.js / npm関連
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ========================
+# ✅ TypeScript
+# ========================
+*.tsbuildinfo
+next-env.d.ts
+
+# ========================
+# ✅ Next.js / App Router
+# ========================
+.next/
+out/
+build/
+dist/
+.cache/
+.eslintcache
+
+# ========================
+# ✅ Firebase関連
+# ========================
+.firebase/
+firebase-debug.log
+firestore.indexes.json
+firestore.rules
+storage.rules
+
+# ========================
+# ✅ Vercel / Netlify / CI系
+# ========================
+.vercel/
+.netlify/
+functions/
+turbo/
+
+# ========================
+# ✅ テスト・UIツール
+# ========================
+coverage/
+.storybook/
+storybook-static/
+jest.config.js
+jest.config.ts
+vitest.config.ts
+
+# ========================
+# ✅ 環境変数・認証情報（超重要）
+# ========================
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.test
+*.auth
+*.pem
+*.key
+*.crt
+*.cert
+*.csr
+secrets.json
+.env.backup
+
+# ========================
+# ✅ PWA / Service Worker
+# ========================
+manifest.json
+service-worker.js
+workbox-*.js
+
+# ========================
+# ✅ 一時ファイル / 不要生成物
+# ========================
+*.zip
+*.tar.gz
+*.tmp
+*.bak
+*.swp
+*.log
+*.pdf
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.webp
+localStorage.json
+
+# ========================
+# ✅ エディターやOS依存ファイル
+# ========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
