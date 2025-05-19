@@ -1,5 +1,5 @@
 # ========================
-# ✅ Node.js / npm関連
+#  Node.js / npm関連
 # ========================
 node_modules/
 npm-debug.log*
@@ -8,13 +8,13 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # ========================
-# ✅ TypeScript
+#  TypeScript
 # ========================
 *.tsbuildinfo
 next-env.d.ts
 
 # ========================
-# ✅ Next.js / App Router
+#  Next.js / App Router
 # ========================
 .next/
 out/
